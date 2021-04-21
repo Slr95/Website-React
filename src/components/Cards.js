@@ -10,40 +10,40 @@ import img8 from '../images/img-8.jpg'
 function Cards() {
   return (
     <div className='cards'>
-      <h1>Check out these EPIC Destinations!</h1>
+      <h1>Mira estos epicos destinos!</h1>
       <div className='cards__container'>
         <div className='cards__wrapper'>
           <ul className='cards__items'>
             <CardItem
               src={img9}
-              text='Explore the hidden waterfall deep inside the Amazon Jungle'
-              label='Adventure'
+              text='Explora la cascada escondida en las profundidades de la selva amazónica'
+              label='AVENTURA'
               path='/services'
             />
             <CardItem
               src={img2}
-              text='Travel through the Islands of Bali in a Private Cruise'
-              label='Luxury'
+              text='Viaja por las islas de Bali en un crucero privado'
+              label='LUJOS'
               path='/services'
             />
           </ul>
           <ul className='cards__items'>
             <CardItem
               src={img3}
-              text='Set Sail in the Atlantic Ocean visiting Uncharted Waters'
-              label='Mystery'
+              text='Zarpe en el Océano Atlántico visitando Uncharted Waters'
+              label='MISTERIO'
               path='/services'
             />
             <CardItem
               src={img4}
-              text='Experience Football on Top of the Himilayan Mountains'
-              label='Adventure'
+              text='Experimenta el fútbol en la cima de las montañas del Himalaya'
+              label='LIBERTAD'
               path='/products'
             />
             <CardItem
               src={img8}
-              text='Ride through the Sahara Desert on a guided camel tour'
-              label='Adrenaline'
+              text='Paseo por el desierto del Sahara en un tour guiado en camello'
+              label='ADRENALINA'
               path='/sign-up'
             />
           </ul>
